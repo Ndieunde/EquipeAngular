@@ -1,0 +1,25 @@
+
+    <h1>{{title}}</h1>
+    <nav>
+      <div class="topnav">
+        <a routerLink="/dashboard">Dashboard</a> 
+        <a routerLink="/heroes" class="">Heroes</a>
+        <div class="Primary">
+        <a routerLink="/heroForm">Edit</a>
+      </div>
+      </div>
+    </nav>
+  
+    <!--The <router-outlet> tells the router where to display routed views. -->
+    <router-outlet></router-outlet>
+    
+    <app-messages></app-messages>
+
+    <app-hero-form></app-hero-form>
+
+
+    
+   
+  
+
+
